@@ -4,10 +4,7 @@ import socket
 import threading
 from dateutil import parser
 
-
-
 client_data = {}
-
 
 def startReceivingClockTime(connector, address):
     while True:
